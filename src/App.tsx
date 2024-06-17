@@ -20,6 +20,7 @@ function App() {
   const handleSubmit = async() => {
     if(email !== "" && password !== "") {
       const response = await axios.post("https://onesourceteam.dev/inspira/login", { email, password})
+      console.log(response)
       if (response.data.success) {
         setCurrentPage(3)
       } 
@@ -42,7 +43,7 @@ function App() {
                     <div id="div-erro" className="row" style={{ display: 'none' }}>
                       <div className="alert alert-danger"></div>
                     </div>
-                    <form id="form" onSubmit={handleSubmit}>
+                    <div>
                       <div className="form-group">
                         <div className="input-group">
                           <div className="input-group-addon"><i className="fa fa-user"></i></div>
@@ -80,14 +81,11 @@ function App() {
                       <div className="row">
                         <div className="col-xs-12">
                           <div className="form-group text-right">
-                            <input type="hidden" name="acao" id="acao" value="efetuar_login" />
-                            <input type="hidden" name="cd_coligada_matriz" id="cd_coligada_matriz" value="" />
-                            <button type="submit" className="btn btn-primary text-uppercase cor-backgroud-padrao" id="btn-entrar" style={{ width: '4vw' }}>Entrar</button>
+                            <button className="btn btn-primary text-uppercase cor-backgroud-padrao" id="btn-entrar" style={{ width: '4vw' }} onClick={handleSubmit}>Entrar</button>
                           </div>
                         </div>
                       </div>
-                      <input type="hidden" name="url_navegador" id="url_navegador" value="http://127.0.0.1:5500/index.html" />
-                    </form>
+                    </div>
                   </div>
                   <div className="text-right">
                     <img src={Unimestre} alt="" width="120" /><br />
