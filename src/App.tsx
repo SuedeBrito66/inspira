@@ -8,6 +8,7 @@ import './styles/rawline.css';
 
 import Logo from './assets/pic_logo_inst.png';
 import Unimestre from './assets/unimestre.png';
+import Gmail from './assets/gmail.png';
 
 import axios from 'axios';
 
@@ -72,7 +73,7 @@ function App() {
                       </div>
                       <div className="row">
                         <div className="col-xs-8 text-left esqueceu-senha">
-                          <p><img/>Login com conta Google</p>
+                          <p><img src={Gmail} style={{height: '0.7vw'}}/>Login com conta Google</p>
                           <a href="#" className="cor-texto-padrao" onClick={() => setCurrentPage(1)}>Esqueceu sua senha?</a>
                         </div>
                       </div>
