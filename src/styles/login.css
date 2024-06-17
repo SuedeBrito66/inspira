@@ -1,0 +1,249 @@
+html, body {
+   min-width: 290px;
+   -ms-overflow-style: scrollbar;
+}
+
+body {
+   background-color: #e7ebee;
+   font-family: sans-serif;
+   font-size: 12px;
+   color: #515151;
+   -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased !important;
+}
+
+.cls-container {
+   min-height: 100vh;
+   height: auto;
+   position: relative;
+   min-width: 290px;
+   overflow: hidden;
+   opacity: 1;
+   visibility: visible;
+   -webkit-transition: opacity 0.5s linear 1.5s;
+   transition: opacity 0.5s linear 1.5s;
+   background-color: #212124;
+   color: #ffffff;
+   text-align: center;
+}
+
+.bg-img {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   opacity: .55;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+.bg-img-login  {
+   background-image: url('../assets/bg_login.jpg');
+}
+
+.cls-conteudo {
+   padding: 50px 15px 15px;
+   padding-top: 20vh;
+   position: relative;
+}
+
+.cls-conteudo .cls-conteudo-sm {
+   color: #515151;
+   width: 70%;
+   min-width: 270px;
+   margin: 0 auto;
+   position: relative;
+}
+
+
+.cls-conteudo .cls-conteudo-sm-recupera {
+   color: #515151;
+   width: 60%;
+   min-width: 370px;
+   margin: 0 auto;
+   position: relative;
+}
+
+.cls-conteudo .cls-conteudo-sm-form {
+   color: #515151;
+   width: 29%;
+   min-width: 370px;
+   margin: 0 auto;
+   position: relative;
+}
+
+.cls-conteudo .cls-conteudo-sm-email {
+   color: #515151;
+   width: 50%;
+   min-width: 200px;
+   margin: 0 auto;
+   position: relative;
+}
+
+
+.panel {
+   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
+   border-radius: 7px;
+   border: 0;
+   margin-bottom: 24px;
+}
+
+.panel-body {
+   padding: 25px 20px 20px 20px;
+   margin-top: -2.5vw;
+}
+
+.img-cliente {
+   padding-bottom: 25px;
+}
+
+.img-cliente img {
+   max-width: 145px;
+}
+
+#div-erro .alert {
+   padding: 6px;
+   margin-left: 15px;
+   margin-right: 15px;
+}
+
+.form-control {
+   font-size: 12px;
+}
+
+.input-group-addon {
+   min-width: 45px;
+}
+
+.btn {
+   cursor: pointer;
+   padding: 6px 12px;
+   font-size: 12px;
+   line-height: 1.42857;
+   vertical-align: middle;
+   -webkit-transition: all 0.25s;
+   transition: all 0.25s;
+}
+
+.esqueceu-senha {
+   padding-top: 5px;
+}
+
+.esqueceu-senha a {
+   color: #5835d8;
+}
+
+.versao {
+   color: #BBB;
+   margin-right: 20px;
+   padding-bottom: 10px;
+}
+
+.versao img {
+   margin-bottom: 2px;
+}
+
+.cor-backgroud-padrao {
+   background-color: #5835d8;
+   border-color: #5835d8;
+}
+
+.cor-color-padrao {
+   color: #5835d8;
+}
+
+.btn {
+   background-color:#5835d8;
+}
+
+.btn:focus{
+   background-color:#5835d8 !important;
+}
+
+.btn.btn-primary:hover  {
+   background-color:#5835d8 !important;
+}
+
+.form-inputs {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   flex-direction: column;
+   margin-top: 1.3vw;
+   width: 100%;
+   height: 50vw;
+   max-height: 28vw;
+   font-size: 0.75vw;
+   gap: 1.4vw;
+   overflow-y: auto;
+}
+
+.form-inputs label {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   text-align: left;
+   gap: 0.2vw;
+   user-select: none;
+}
+
+.form-inputs .selector {
+   width: 420px;
+   height: 42px;
+   border: 1.5px solid #565659;
+   background: none;
+   border-radius: 0.2vw;
+   padding-left: 10px;
+}
+
+.form-inputs .input {
+   width: 420px;
+   height: 42px;
+   border: 1.5px solid #565659;
+   background: none;
+   border-radius: 0.2vw;
+   padding-left: 10px;
+}
+
+::-webkit-scrollbar {
+   width: 4px;
+}
+ 
+::-webkit-scrollbar-track {
+   background: #D9D9D9;
+   border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: #666666;
+   border-radius: 4px;
+}
+
+object[type^="application/gas-events-cef"] {
+   display: none;
+}
+
+#btn-cancelar {
+   background-color: white;
+   color:#5835d8;
+}
+
+#btn-cancelar:hover  {
+   background-color:#e6e6e6;
+}
+
+#btn-cancelar:focus{
+   background-color:#e6e6e6 !important;
+}
+
+@media (min-width: 768px) {
+   .cls-conteudo .cls-conteudo-sm {
+      width: 350px;
+   }
+}
