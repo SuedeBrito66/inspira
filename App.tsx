@@ -8,19 +8,15 @@ import './styles/rawline.css';
 
 import Logo from './assets/pic_logo_inst.png';
 import Unimestre from './assets/unimestre.png';
-import AccessIcon from './fonts/access_icon.svg';
-import AccessPopUp from './fonts/access_popup.svg';
 
 import axios from 'axios';
 
 function App() {
   const [currentPage, setCurrentPage] = useState(0);
-  const [count, setCount] = useState(0);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleSubmit = async(e) => {
-    e.preventDefault();
+  const handleSubmit = async() => {
     if(email !== "" && password !== "") {
       const response = await axios.post("https://onesourceteam.dev/inspira/login", { email, password})
       if (response.data.success) {
