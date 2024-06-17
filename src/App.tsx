@@ -207,55 +207,148 @@ function App() {
                       </select>
                     </label>
                     <label>
-                      2. Qual é a sua opinião sobre o apoio pedagógico <br/>e administrativo oferecido pela escola?
-                      <select className="selector">
-                        <option>Muito Satisfeito(a)</option>
-                        <option>Satisfeito(a)</option>
-                        <option>Neutro(a)</option>
-                        <option>Insatisfeito(a)</option>
-                        <option>Muito Insatisfeito(a)</option>
-                      </select>
-                    </label>
-                    <label>
-                      3. Como você avalia as condições físicas das instalações da <br/>escola (salas de aula, laboratórios, biblioteca, etc.)?
+                      2. Como você avalia a qualidade das instalações <br/>físicas da escola?
                       <select className="selector">
                         <option>Excelente</option>
                         <option>Boa</option>
                         <option>Regular</option>
                         <option>Ruim</option>
+                        <option>Péssima</option>
                       </select>
                     </label>
                     <label>
-                      4. Como você avalia a qualidade dos materiais e recursos <br/>didáticos disponibilizados pela escola?                      
-                      <select className="selector">
-                        <option>Excelente</option>
-                        <option>Boa</option>
-                        <option>Regular</option>
-                        <option>Ruim</option>
-                      </select>
-                    </label>
-                    <label>
-                      5. Você sente que a escola promove um ambiente de <br/>trabalho colaborativo e respeitoso entre os professores?          
+                      3. As condições de limpeza e manutenção são satisfatórias?
                       <select className="selector">
                         <option>Sempre</option>
-                        <option>Frequentemente</option>
+                        <option>Na maioria das vezes</option>
                         <option>Às vezes</option>
                         <option>Raramente</option>
                         <option>Nunca</option>
                       </select>
                     </label>
                     <label>
-                      6. Como você classifica a comunicação entre a direção da <br/>escola e os professores?         
+                      4. Os materiais didáticos fornecidos são adequados <br/>para as aulas?                      
                       <select className="selector">
-                        <option>Muito boa</option>
-                        <option>Boa</option>
-                        <option>Regular</option>
-                        <option>Ruim</option>
-                        <option>Muito ruim</option>
+                        <option>Totalmente adequados</option>
+                        <option>Adequados</option>
+                        <option>Parcialmente adequados</option>
+                        <option>Inadequados</option>
+                        <option>Totalmente inadequados</option>
                       </select>
                     </label>
                     <label>
-                      7. Quais melhorias você sugere para tornar a escola um local <br/>de trabalho melhor para os professores?
+                      5. Você tem acesso a recursos tecnológicos necessários <br/>para o ensino?     
+                      <select className="selector">
+                        <option>Sempre</option>
+                        <option>Na maioria das vezes</option>
+                        <option>Às vezes</option>
+                        <option>Raramente</option>
+                        <option>Nunca</option>
+                      </select>
+                    </label>
+                    <label>
+                      6. Como você avalia a comunicação da equipe de gestão?
+                      <select className="selector">
+                        <option>Excelente</option>
+                        <option>Boa</option>
+                        <option>Regular</option>
+                        <option>Ruim</option>
+                        <option>Péssima</option>
+                      </select>
+                    </label>
+                    <label>
+                      7. Você sente que recebe apoio suficiente da <br/>coordenação e direção?
+                      <select className="selector">
+                        <option>Sempre</option>
+                        <option>Na maioria das vezes</option>
+                        <option>Às vezes</option>
+                        <option>Raramente</option>
+                        <option>Nunca</option>
+                      </select>
+                    </label>
+                    <label>
+                      8. As oportunidades de capacitação oferecidas pela <br/>Rede Inspira são satisfatórias?
+                      <select className="selector">
+                        <option>Muito satisfatórias</option>
+                        <option>Satisfatórias</option>
+                        <option>Neutras</option>
+                        <option>Insatisfatórias</option>
+                        <option>Muito insatisfatórias</option>
+                      </select>
+                    </label>
+                    <label>
+                      9. Você recebe feedback regular sobre seu desempenho?
+                      <select className="selector">
+                        <option>Sempre</option>
+                        <option>Na maioria das vezes</option>
+                        <option>Às vezes</option>
+                        <option>Raramente</option>
+                        <option>Nunca</option>
+                      </select>
+                    </label>
+                    <label>
+                      10. Como você avalia o equilíbrio entre sua vida <br/>profissional e pessoal?
+                      <select className="selector">
+                        <option>Excelente</option>
+                        <option>Boa</option>
+                        <option>Regular</option>
+                        <option>Ruim</option>
+                        <option>Péssima</option>
+                      </select>
+                    </label>
+                    <label>
+                      11. O volume de trabalho administrativo é gerenciável?
+                      <select className="selector">
+                        <option>Sempre</option>
+                        <option>Na maioria das vezes</option>
+                        <option>Às vezes</option>
+                        <option>Raramente</option>
+                        <option>Nunca</option>
+                      </select>
+                    </label>
+                    <label>
+                      12. Como você descreve a relação com seus <br/>colegas de trabalho?
+                      <select className="selector">
+                        <option>Excelente</option>
+                        <option>Boa</option>
+                        <option>Regular</option>
+                        <option>Ruim</option>
+                        <option>Péssima</option>
+                      </select>
+                    </label>
+                    <label>
+                      13. O ambiente de trabalho é colaborativo?
+                      <select className="selector">
+                      <option>Sempre</option>
+                        <option>Na maioria das vezes</option>
+                        <option>Às vezes</option>
+                        <option>Raramente</option>
+                        <option>Nunca</option>
+                      </select>
+                    </label>
+                    <label>
+                      14. Como você avalia sua satisfação geral com o <br/>trabalho na Rede Inspira?
+                      <select className="selector">
+                        <option>Muito satisfeito(a)</option>
+                        <option>Satisfeito(a)</option>
+                        <option>Neutro(a)</option>
+                        <option>Insatisfeito(a)</option>
+                        <option>Muito insatisfeito(a)</option>
+                      </select>
+                    </label>
+                    <label>
+                      15. Você recomendaria a Rede Inspira como um bom <br/>lugar para trabalhar?
+                      <select className="selector">
+                        <option>Definitivamente sim</option>
+                        <option>Provavelmente sim</option>
+                        <option>Talvez</option>
+                        <option>Provavelmente não</option>
+                        <option>Definitivamente não</option>
+                      </select>
+                    </label>
+
+                    <label>
+                      16. Quais melhorias você sugere para tornar a escola um <br/>local de trabalho melhor para os professores?
                       <input className="input" />
                     </label>
                   </div>
